@@ -1,0 +1,39 @@
+intents:
+  - what_do_you_have
+  - vegetarian
+  - non_veg
+  - deny
+  - order_name_veg
+  - order_name_non_veg
+  - greet
+  - goodbye
+  - thanks
+
+responses:
+  utter_greet:
+  - text : "Hey! I am your personal assisstant!! "
+  utter_did_that_help:
+  - text : "Did that help??"
+  utter_you_are_welcome:
+  - text : "You are welcome"
+  utter_botgreet:
+  - text : "How can I help you?"
+  utter_veg_non_veg:
+  - text : "What would you prefer veg or non-veg?"
+  utter_anything_else:
+  - text : "Do you want anything else ?"
+  utter_thanks:
+  - text : "Thanks, we will get your order shortly!!"
+  utter_name_veg:
+  - text : "We have mix veg, paneer butter masala, mushroom masala etc.."
+  utter_name_non_veg:
+  - text : "We have egg fry, boiled eggs, chicken butter masala etc.."
+  utter_goodbye:
+  - text : "Goodbye!! :)"
+  utter_default: 
+  - text:  "I could not process you last query. I am terribly sorry."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
