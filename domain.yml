@@ -19,7 +19,12 @@ responses:
   utter_botgreet:
   - text : "How can I help you?"
   utter_veg_non_veg:
-  - text : "What would you prefer veg or non-veg?"
+  - text : "What would you prefer:"
+    buttons:
+    - title: "Vegetarian"
+      payload: "/vegetarian"
+    - title: "Non-Vegetarian"
+      payload: "/non_veg"
   utter_anything_else:
   - text : "Do you want anything else ?"
   utter_thanks:
